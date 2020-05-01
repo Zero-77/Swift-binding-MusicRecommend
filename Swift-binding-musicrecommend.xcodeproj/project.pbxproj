@@ -15,6 +15,9 @@
 		DA68BAD62459E4C500AEEDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA68BAD42459E4C500AEEDD3 /* LaunchScreen.storyboard */; };
 		DA68BAE12459E4C600AEEDD3 /* Swift_binding_musicrecommendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68BAE02459E4C600AEEDD3 /* Swift_binding_musicrecommendTests.swift */; };
 		DA68BAEC2459E4C600AEEDD3 /* Swift_binding_musicrecommendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA68BAEB2459E4C600AEEDD3 /* Swift_binding_musicrecommendUITests.swift */; };
+		DA91E081245AA77100383D0F /* musicpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91E080245AA77100383D0F /* musicpage.swift */; };
+		DA91E083245AAAF000383D0F /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91E082245AAAF000383D0F /* song.swift */; };
+		DA91E085245AABDB00383D0F /* songData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91E084245AABDB00383D0F /* songData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		DA68BAE72459E4C600AEEDD3 /* Swift-binding-musicrecommendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-binding-musicrecommendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA68BAEB2459E4C600AEEDD3 /* Swift_binding_musicrecommendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_binding_musicrecommendUITests.swift; sourceTree = "<group>"; };
 		DA68BAED2459E4C600AEEDD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA91E080245AA77100383D0F /* musicpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicpage.swift; sourceTree = "<group>"; };
+		DA91E082245AAAF000383D0F /* song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
+		DA91E084245AABDB00383D0F /* songData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				DA68BAC92459E4C400AEEDD3 /* AppDelegate.swift */,
 				DA68BACB2459E4C400AEEDD3 /* SceneDelegate.swift */,
 				DA68BACD2459E4C400AEEDD3 /* ContentView.swift */,
+				DA91E080245AA77100383D0F /* musicpage.swift */,
+				DA91E082245AAAF000383D0F /* song.swift */,
+				DA91E084245AABDB00383D0F /* songData.swift */,
 				DA68BACF2459E4C500AEEDD3 /* Assets.xcassets */,
 				DA68BAD42459E4C500AEEDD3 /* LaunchScreen.storyboard */,
 				DA68BAD72459E4C500AEEDD3 /* Info.plist */,
@@ -267,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA91E083245AAAF000383D0F /* song.swift in Sources */,
+				DA91E081245AA77100383D0F /* musicpage.swift in Sources */,
 				DA68BACA2459E4C400AEEDD3 /* AppDelegate.swift in Sources */,
 				DA68BACC2459E4C400AEEDD3 /* SceneDelegate.swift in Sources */,
+				DA91E085245AABDB00383D0F /* songData.swift in Sources */,
 				DA68BACE2459E4C400AEEDD3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
